@@ -26,7 +26,7 @@ import { addToInstallList } from "../../utils.js";
 type DBDialectType = Exclude<DBType, "pg"> | "postgresql";
 
 const configDriverDialect: Record<DBProvider, DBDialectType> = {
-  turso: "sqlite",
+  turso: "turso",
   postgresjs: "postgresql",
   "node-postgres": "postgresql",
   neon: "postgresql",

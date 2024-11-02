@@ -39,7 +39,6 @@ export const DBProviders: DBProviderOptions = {
   ],
   sqlite: [
     { name: "better-sqlite3", value: "better-sqlite3" },
-    { name: "turso", value: "turso" },
     // { name: "Bun SQLite", value: "bun-sqlite" },
   ],
 };

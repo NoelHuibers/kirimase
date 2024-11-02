@@ -1,6 +1,6 @@
 import { AuthProvider } from "./commands/add/auth/next-auth/utils.ts";
 
-export type DBType = "pg" | "mysql" | "sqlite";
+export type DBType = "pg" | "mysql" | "sqlite" | "truso";
 export type DBProviderItem = {
   name: string;
   value: string;
@@ -21,7 +21,6 @@ export type DBProvider =
   | "planetscale"
   | "mysql-2"
   | "better-sqlite3"
-  | "turso";
 // | "bun-sqlite";
 
 export type DBProviderOptions = {
